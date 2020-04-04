@@ -8,4 +8,12 @@ void main()
   int et[10],tot,avg; 
   printf("enter no of processes:");
   scanf("%d",&n);
- 
+  for(i=0;i<n;i++)
+  {
+  printf("enter process%d name:",i+1);
+  scanf("%s",&p[i]);
+  printf("enter process time:");
+  scanf("%d",&pt[i]);
+  printf("enter priority:");
+  scanf("%d",&pr[i]);
+  }
